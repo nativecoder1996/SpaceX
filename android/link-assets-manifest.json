@@ -1,0 +1,153 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Bold.otf",
+      "sha1": "bd717ab64fc380747bc734a097d6379c6cca24e3"
+    },
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Extralight.otf",
+      "sha1": "be7e3a551c21ce3b67ebde1c45faacac63948c1c"
+    },
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Light.otf",
+      "sha1": "4853269d062e6326fda140287fc079635e4489ce"
+    },
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Medium.otf",
+      "sha1": "fdc4f408b5117fd85166b198dfe4d0fac52c34c2"
+    },
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Regular.otf",
+      "sha1": "67d49fed960a230e12c212d5312dc3cf3ed1d73b"
+    },
+    {
+      "path": "SRC/Assets/Fonts/ClashDisplay-Semibold.otf",
+      "sha1": "64e9b35c59ea054e2aa2ac545d1692b61c8fc4bc"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Bold.otf",
+      "sha1": "7c66f9cd8c3240fde8504746b849217901adfea1"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-BoldItalic.otf",
+      "sha1": "d3885be3b71de2af7665882d9189ada24f0b3e29"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Extralight.otf",
+      "sha1": "11ed92f24bd64ea839cca8da3d9a8fde3158b05a"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-ExtralightItalic.otf",
+      "sha1": "446ec19fd95e2c56ca256f35447c60250568d551"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Italic.otf",
+      "sha1": "7042c5ffc92d2f1626a4fdb88a07156403a51ecc"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Light.otf",
+      "sha1": "d86ef28d2bd7c8bc3f37663738e291370da37d27"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-LightItalic.otf",
+      "sha1": "437d21869e0b92ae38814d6661e5c8bf5363f802"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Medium.otf",
+      "sha1": "90d6eedb55a4df589dcdb4038aa2feecb8c4ef3a"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-MediumItalic.otf",
+      "sha1": "d14bb50706609c3ee4a4a156efb32c42399d7f7b"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Regular.otf",
+      "sha1": "b03745ee5c7610ffcd8b64a4a4ccf28e25ed9759"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-Semibold.otf",
+      "sha1": "24d398d7f5e7ebc4ba9488552455b79d38e17221"
+    },
+    {
+      "path": "SRC/Assets/Fonts/GeneralSans-SemiboldItalic.otf",
+      "sha1": "4e8eeaae30379e18bca5ecbb09156ace52e0af3a"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Black.ttf",
+      "sha1": "283fa65b96dc1f2d71c6504afb9610447bdcdf1b"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Bold.ttf",
+      "sha1": "48747b7a60086f97af0d373febcbd1f1bee87f17"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-ExtraBold.ttf",
+      "sha1": "bff772be6bca9895c6fdcd57e5d5be9a47f2e058"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-ExtraLight.ttf",
+      "sha1": "421072aef8610cb0f79661b494442a4b9363b43f"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Light.ttf",
+      "sha1": "dd9ec1ae67dd85143bacf7a3cb37e9f0ac979843"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Medium.ttf",
+      "sha1": "a418a8ba73bbcfa8c131c426ab836d78457afa9b"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Regular.ttf",
+      "sha1": "7237d9cf55f177702066a28a4dde1e4c7e8ab576"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-SemiBold.ttf",
+      "sha1": "431007da316de60d85174aeec9b8389b5c73e7d6"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Inter-Thin.ttf",
+      "sha1": "297919d59c9ba4fa17251cdb9f06c26ca906e593"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Bold.otf",
+      "sha1": "1c110e9a46afaa4bf38d33e8c0bfe80edaccef33"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-BoldItalic.otf",
+      "sha1": "20ceee9cc3fb95cff5258a4dfc28a6752082f190"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Italic.otf",
+      "sha1": "4800a158cd5d781a3befc3e622a69c76cdd865ba"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Light.otf",
+      "sha1": "5d83d058996f4036e79233b2fb69017fc03faec6"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-LightItalic.otf",
+      "sha1": "96592414e4d0375617c1cbcca3e23b5277889263"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Medium.otf",
+      "sha1": "de8a83fc37946ab7e6420aa76e8ce06f8df4bbbb"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-MediumItalic.otf",
+      "sha1": "7634584672887858cb9b350ef79f50508f53c5fa"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Regular.otf",
+      "sha1": "972358b33bc53724094eee9c7d8c427feedb9c46"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-Semibold.otf",
+      "sha1": "d1ef276efc636502d2c571857af2a1d2ecd8448d"
+    },
+    {
+      "path": "SRC/Assets/Fonts/Recia-SemiboldItalic.otf",
+      "sha1": "39102b31443529fc51c31b3cf58c5d38978ca126"
+    }
+  ]
+}

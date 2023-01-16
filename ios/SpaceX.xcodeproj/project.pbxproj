@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* SpaceXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SpaceXTests.m */; };
+		03F22C195D2744E0B1472C97 /* ClashDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 169D6EE93CFF44268E502002 /* ClashDisplay-Bold.otf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-SpaceX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SpaceX.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18BC94689D7945A082A4077C /* ClashDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBB1BFD5C192452F85AA5EE8 /* ClashDisplay-Regular.otf */; };
+		1C41AAC3623F4798B8BF80DF /* Recia-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBE764FD762B47889BFE7351 /* Recia-Medium.otf */; };
+		1EE07398C38343D3A3DE7CDB /* Recia-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE394D0E6F94B8AB45DA91D /* Recia-LightItalic.otf */; };
+		234B3CEBC2174D20AEDCAF0A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D04F32B7AE244F4ABF2A9E98 /* Inter-SemiBold.ttf */; };
+		301B0DC3BBAA4D41A6633275 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B27BA59B634BBC8864F07A /* Inter-Thin.ttf */; };
+		327DADCFDF81411588A94E91 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 918FBEB548124F35A91CB659 /* Inter-Black.ttf */; };
+		35CDA5E188B541B0B4DD3707 /* ClashDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA101A72B74C41963DB8B3 /* ClashDisplay-Medium.otf */; };
+		3BFCB374A32F4ACC8ED51551 /* Recia-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E24876EB7F864C088B7C39CD /* Recia-MediumItalic.otf */; };
+		3FD5B2A058924073B2047DAF /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 495ECFE548F044D5B14637AC /* Inter-Light.ttf */; };
+		4A17746CEAB746CDB113BE30 /* GeneralSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6807FE14A41EAB09CEE3A /* GeneralSans-Bold.otf */; };
+		5398E1423E7E427DB59CE4AB /* Recia-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D91D0C3116E42928FD305E2 /* Recia-Bold.otf */; };
+		5508798359954763BB4AE080 /* Recia-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0AA15659D7F4608B34F312E /* Recia-SemiboldItalic.otf */; };
+		6398CF3165444380BEC72DD5 /* GeneralSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3952D0D7422942F2AE5D5319 /* GeneralSans-Medium.otf */; };
+		65211C780FC64B02A4C0DA1C /* GeneralSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52A8ABB67756448E80EF495B /* GeneralSans-Light.otf */; };
+		7699B88040F8A987B510C191 /* libPods-SpaceX-SpaceXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SpaceX-SpaceXTests.a */; };
+		777518C0D49045B892D82928 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1694E2D4F851427693DFB121 /* Inter-Medium.ttf */; };
+		792BD98D66A74B6193B2DB21 /* GeneralSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 651CCEFC6D5D4C0EAFB34EA8 /* GeneralSans-Italic.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82924CB8DAC447DAA045F0AE /* GeneralSans-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98F7DFBB69AC4D9DBC3C0098 /* GeneralSans-LightItalic.otf */; };
+		89150104C6E24EFAAAB783EF /* GeneralSans-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E59F237F17004B738C6272C9 /* GeneralSans-Semibold.otf */; };
+		940CD34EAA624DCC97D23741 /* Recia-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2425901FA5BC4B46897C1AEB /* Recia-Light.otf */; };
+		9696AF92B08D45F79E8687EE /* ClashDisplay-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6218CD64630E4BFFB82FFA12 /* ClashDisplay-Extralight.otf */; };
+		988A77942971B29600251713 /* Recia-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A776F2971B29600251713 /* Recia-BoldItalic.otf */; };
+		988A77952971B29600251713 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77702971B29600251713 /* Inter-Medium.ttf */; };
+		988A77962971B29600251713 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77712971B29600251713 /* Inter-Light.ttf */; };
+		988A77972971B29600251713 /* ClashDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77722971B29600251713 /* ClashDisplay-Medium.otf */; };
+		988A77982971B29600251713 /* ClashDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77732971B29600251713 /* ClashDisplay-Semibold.otf */; };
+		988A77992971B29600251713 /* GeneralSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77742971B29600251713 /* GeneralSans-Italic.otf */; };
+		988A779A2971B29600251713 /* Recia-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77752971B29600251713 /* Recia-Light.otf */; };
+		988A779B2971B29600251713 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77762971B29600251713 /* Inter-Thin.ttf */; };
+		988A779C2971B29600251713 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77772971B29600251713 /* Inter-Bold.ttf */; };
+		988A779D2971B29600251713 /* ClashDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77782971B29600251713 /* ClashDisplay-Light.otf */; };
+		988A779E2971B29600251713 /* Recia-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77792971B29600251713 /* Recia-Semibold.otf */; };
+		988A779F2971B29600251713 /* GeneralSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777A2971B29600251713 /* GeneralSans-BoldItalic.otf */; };
+		988A77A02971B29600251713 /* Recia-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777B2971B29600251713 /* Recia-SemiboldItalic.otf */; };
+		988A77A12971B29600251713 /* GeneralSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777C2971B29600251713 /* GeneralSans-Light.otf */; };
+		988A77A22971B29600251713 /* Recia-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777D2971B29600251713 /* Recia-Italic.otf */; };
+		988A77A32971B29600251713 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777E2971B29600251713 /* Inter-Regular.ttf */; };
+		988A77A42971B29600251713 /* GeneralSans-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A777F2971B29600251713 /* GeneralSans-MediumItalic.otf */; };
+		988A77A52971B29600251713 /* GeneralSans-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77802971B29600251713 /* GeneralSans-Semibold.otf */; };
+		988A77A62971B29600251713 /* GeneralSans-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77812971B29600251713 /* GeneralSans-Extralight.otf */; };
+		988A77A72971B29600251713 /* GeneralSans-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77822971B29600251713 /* GeneralSans-LightItalic.otf */; };
+		988A77A82971B29600251713 /* GeneralSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77832971B29600251713 /* GeneralSans-Medium.otf */; };
+		988A77A92971B29600251713 /* Recia-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77842971B29600251713 /* Recia-LightItalic.otf */; };
+		988A77AA2971B29600251713 /* Recia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77852971B29600251713 /* Recia-Regular.otf */; };
+		988A77AB2971B29600251713 /* Recia-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77862971B29600251713 /* Recia-Bold.otf */; };
+		988A77AC2971B29600251713 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77872971B29600251713 /* Inter-ExtraBold.ttf */; };
+		988A77AD2971B29600251713 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77882971B29600251713 /* Inter-ExtraLight.ttf */; };
+		988A77AE2971B29600251713 /* Recia-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77892971B29600251713 /* Recia-Medium.otf */; };
+		988A77AF2971B29600251713 /* ClashDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778A2971B29600251713 /* ClashDisplay-Bold.otf */; };
+		988A77B02971B29600251713 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778B2971B29600251713 /* Inter-Black.ttf */; };
+		988A77B12971B29600251713 /* GeneralSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778C2971B29600251713 /* GeneralSans-Regular.otf */; };
+		988A77B22971B29600251713 /* Recia-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778D2971B29600251713 /* Recia-MediumItalic.otf */; };
+		988A77B32971B29600251713 /* GeneralSans-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778E2971B29600251713 /* GeneralSans-SemiboldItalic.otf */; };
+		988A77B42971B29600251713 /* GeneralSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A778F2971B29600251713 /* GeneralSans-Bold.otf */; };
+		988A77B52971B29600251713 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77902971B29600251713 /* Inter-SemiBold.ttf */; };
+		988A77B62971B29600251713 /* ClashDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77912971B29600251713 /* ClashDisplay-Regular.otf */; };
+		988A77B72971B29600251713 /* GeneralSans-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77922971B29600251713 /* GeneralSans-ExtralightItalic.otf */; };
+		988A77B82971B29600251713 /* ClashDisplay-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 988A77932971B29600251713 /* ClashDisplay-Extralight.otf */; };
+		9F09B0D4E68C4F37975DA815 /* GeneralSans-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A3184AE455945C692838AC4 /* GeneralSans-ExtralightItalic.otf */; };
+		B579E4CF64A245A8A8EF5FCD /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BE95F076D4802AC0C8506 /* Inter-Bold.ttf */; };
+		B7C54332F3504BC1B4E0D1F7 /* Recia-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E568500C84A4274BF738D19 /* Recia-Italic.otf */; };
+		B956C0FF9DE54AEAA12A1CF1 /* Recia-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD8211586CBC4DA988975A40 /* Recia-Semibold.otf */; };
+		BC2B08B5F17E4C81A365BC13 /* ClashDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1029D75F67BC4A7EBD59A42C /* ClashDisplay-Light.otf */; };
+		BCB3BEA371104B72907DBD39 /* GeneralSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5214E241A7214E7BABB2E595 /* GeneralSans-Regular.otf */; };
+		BDD42A9344224D41BE08A915 /* Recia-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3204E25A9E8C4996858B7076 /* Recia-BoldItalic.otf */; };
+		C4A1F2D62F5640E2B75045C3 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AB891B091B249CCB51E1C9D /* Inter-Regular.ttf */; };
+		C7EE84FBB1594EBEBF3E3267 /* GeneralSans-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A57517669024FE5B2FE392E /* GeneralSans-Extralight.otf */; };
+		D43D799EB7BA4089A4D970B9 /* ClashDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06E1BFC6873647C7A9D6651A /* ClashDisplay-Semibold.otf */; };
+		D940A6204DD94F219D81F6AE /* GeneralSans-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A89E7D10D7BC480A96A722BC /* GeneralSans-MediumItalic.otf */; };
+		DDF97D06EBA44E6BBD9D2E88 /* Recia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70918A91B4E94E1ABC712BC8 /* Recia-Regular.otf */; };
+		DE6DB212AB8B4BD8AA2376B2 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6BDD46BCC124CA293B50AE8 /* Inter-ExtraLight.ttf */; };
+		F5E0B2AE88CB436EB1C62DAF /* GeneralSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE6D76EF55D746E5A49E42FB /* GeneralSans-BoldItalic.otf */; };
+		F9F9CC580E1A4363AE3FAE05 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 324FA1D27016405D97C8D0C2 /* Inter-ExtraBold.ttf */; };
+		FA565D263B974A7FAD6D1BE1 /* GeneralSans-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AA78B5F2C8145338F51C0E2 /* GeneralSans-SemiboldItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = SpaceX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* SpaceXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SpaceXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceXTests.m; sourceTree = "<group>"; };
+		06E1BFC6873647C7A9D6651A /* ClashDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Semibold.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		1029D75F67BC4A7EBD59A42C /* ClashDisplay-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Light.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Light.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpaceX/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SpaceX/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpaceX/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpaceX/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpaceX/main.m; sourceTree = "<group>"; };
+		1694E2D4F851427693DFB121 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../SRC/Assets/Fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		169D6EE93CFF44268E502002 /* ClashDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Bold.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Bold.otf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SpaceX-SpaceXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpaceX-SpaceXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2425901FA5BC4B46897C1AEB /* Recia-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Light.otf"; path = "../SRC/Assets/Fonts/Recia-Light.otf"; sourceTree = "<group>"; };
+		3204E25A9E8C4996858B7076 /* Recia-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-BoldItalic.otf"; path = "../SRC/Assets/Fonts/Recia-BoldItalic.otf"; sourceTree = "<group>"; };
+		324FA1D27016405D97C8D0C2 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../SRC/Assets/Fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3952D0D7422942F2AE5D5319 /* GeneralSans-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Medium.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Medium.otf"; sourceTree = "<group>"; };
+		3A57517669024FE5B2FE392E /* GeneralSans-Extralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Extralight.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Extralight.otf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-SpaceX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.debug.xcconfig"; sourceTree = "<group>"; };
+		495ECFE548F044D5B14637AC /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../SRC/Assets/Fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		4D91D0C3116E42928FD305E2 /* Recia-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Bold.otf"; path = "../SRC/Assets/Fonts/Recia-Bold.otf"; sourceTree = "<group>"; };
+		5214E241A7214E7BABB2E595 /* GeneralSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Regular.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Regular.otf"; sourceTree = "<group>"; };
+		52A8ABB67756448E80EF495B /* GeneralSans-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Light.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Light.otf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-SpaceX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.release.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.release.xcconfig"; sourceTree = "<group>"; };
+		5A3184AE455945C692838AC4 /* GeneralSans-ExtralightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-ExtralightItalic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		5AA78B5F2C8145338F51C0E2 /* GeneralSans-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-SemiboldItalic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		5AB891B091B249CCB51E1C9D /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../SRC/Assets/Fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		5AE394D0E6F94B8AB45DA91D /* Recia-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-LightItalic.otf"; path = "../SRC/Assets/Fonts/Recia-LightItalic.otf"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-SpaceX-SpaceXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX-SpaceXTests.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CBA101A72B74C41963DB8B3 /* ClashDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Medium.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Medium.otf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-SpaceX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpaceX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6218CD64630E4BFFB82FFA12 /* ClashDisplay-Extralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Extralight.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Extralight.otf"; sourceTree = "<group>"; };
+		651CCEFC6D5D4C0EAFB34EA8 /* GeneralSans-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Italic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Italic.otf"; sourceTree = "<group>"; };
+		70918A91B4E94E1ABC712BC8 /* Recia-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Regular.otf"; path = "../SRC/Assets/Fonts/Recia-Regular.otf"; sourceTree = "<group>"; };
+		73B27BA59B634BBC8864F07A /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../SRC/Assets/Fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		7E568500C84A4274BF738D19 /* Recia-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Italic.otf"; path = "../SRC/Assets/Fonts/Recia-Italic.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpaceX/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-SpaceX-SpaceXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX-SpaceXTests.release.xcconfig"; path = "Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F4BE95F076D4802AC0C8506 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../SRC/Assets/Fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		918FBEB548124F35A91CB659 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../SRC/Assets/Fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		988A776F2971B29600251713 /* Recia-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-BoldItalic.otf"; sourceTree = "<group>"; };
+		988A77702971B29600251713 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		988A77712971B29600251713 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		988A77722971B29600251713 /* ClashDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Medium.otf"; sourceTree = "<group>"; };
+		988A77732971B29600251713 /* ClashDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		988A77742971B29600251713 /* GeneralSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Italic.otf"; sourceTree = "<group>"; };
+		988A77752971B29600251713 /* Recia-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Light.otf"; sourceTree = "<group>"; };
+		988A77762971B29600251713 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		988A77772971B29600251713 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		988A77782971B29600251713 /* ClashDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Light.otf"; sourceTree = "<group>"; };
+		988A77792971B29600251713 /* Recia-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Semibold.otf"; sourceTree = "<group>"; };
+		988A777A2971B29600251713 /* GeneralSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		988A777B2971B29600251713 /* Recia-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		988A777C2971B29600251713 /* GeneralSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Light.otf"; sourceTree = "<group>"; };
+		988A777D2971B29600251713 /* Recia-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Italic.otf"; sourceTree = "<group>"; };
+		988A777E2971B29600251713 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		988A777F2971B29600251713 /* GeneralSans-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-MediumItalic.otf"; sourceTree = "<group>"; };
+		988A77802971B29600251713 /* GeneralSans-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Semibold.otf"; sourceTree = "<group>"; };
+		988A77812971B29600251713 /* GeneralSans-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Extralight.otf"; sourceTree = "<group>"; };
+		988A77822971B29600251713 /* GeneralSans-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-LightItalic.otf"; sourceTree = "<group>"; };
+		988A77832971B29600251713 /* GeneralSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Medium.otf"; sourceTree = "<group>"; };
+		988A77842971B29600251713 /* Recia-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-LightItalic.otf"; sourceTree = "<group>"; };
+		988A77852971B29600251713 /* Recia-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Regular.otf"; sourceTree = "<group>"; };
+		988A77862971B29600251713 /* Recia-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Bold.otf"; sourceTree = "<group>"; };
+		988A77872971B29600251713 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		988A77882971B29600251713 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		988A77892971B29600251713 /* Recia-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-Medium.otf"; sourceTree = "<group>"; };
+		988A778A2971B29600251713 /* ClashDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Bold.otf"; sourceTree = "<group>"; };
+		988A778B2971B29600251713 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		988A778C2971B29600251713 /* GeneralSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Regular.otf"; sourceTree = "<group>"; };
+		988A778D2971B29600251713 /* Recia-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recia-MediumItalic.otf"; sourceTree = "<group>"; };
+		988A778E2971B29600251713 /* GeneralSans-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		988A778F2971B29600251713 /* GeneralSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Bold.otf"; sourceTree = "<group>"; };
+		988A77902971B29600251713 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		988A77912971B29600251713 /* ClashDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Regular.otf"; sourceTree = "<group>"; };
+		988A77922971B29600251713 /* GeneralSans-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		988A77932971B29600251713 /* ClashDisplay-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Extralight.otf"; sourceTree = "<group>"; };
+		98F7DFBB69AC4D9DBC3C0098 /* GeneralSans-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-LightItalic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-LightItalic.otf"; sourceTree = "<group>"; };
+		9CF6807FE14A41EAB09CEE3A /* GeneralSans-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Bold.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Bold.otf"; sourceTree = "<group>"; };
+		A89E7D10D7BC480A96A722BC /* GeneralSans-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-MediumItalic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-MediumItalic.otf"; sourceTree = "<group>"; };
+		AD8211586CBC4DA988975A40 /* Recia-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Semibold.otf"; path = "../SRC/Assets/Fonts/Recia-Semibold.otf"; sourceTree = "<group>"; };
+		D04F32B7AE244F4ABF2A9E98 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../SRC/Assets/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		DE6D76EF55D746E5A49E42FB /* GeneralSans-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-BoldItalic.otf"; path = "../SRC/Assets/Fonts/GeneralSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		E24876EB7F864C088B7C39CD /* Recia-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-MediumItalic.otf"; path = "../SRC/Assets/Fonts/Recia-MediumItalic.otf"; sourceTree = "<group>"; };
+		E59F237F17004B738C6272C9 /* GeneralSans-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GeneralSans-Semibold.otf"; path = "../SRC/Assets/Fonts/GeneralSans-Semibold.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0AA15659D7F4608B34F312E /* Recia-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-SemiboldItalic.otf"; path = "../SRC/Assets/Fonts/Recia-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		F6BDD46BCC124CA293B50AE8 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../SRC/Assets/Fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FBB1BFD5C192452F85AA5EE8 /* ClashDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ClashDisplay-Regular.otf"; path = "../SRC/Assets/Fonts/ClashDisplay-Regular.otf"; sourceTree = "<group>"; };
+		FBE764FD762B47889BFE7351 /* Recia-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Recia-Medium.otf"; path = "../SRC/Assets/Fonts/Recia-Medium.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-SpaceX-SpaceXTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-SpaceX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* SpaceXTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SpaceXTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SpaceXTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SpaceX */ = {
+			isa = PBXGroup;
+			children = (
+				988A776E2971B29600251713 /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = SpaceX;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-SpaceX.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SpaceX-SpaceXTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B49B0EAD436407C8105023B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				169D6EE93CFF44268E502002 /* ClashDisplay-Bold.otf */,
+				6218CD64630E4BFFB82FFA12 /* ClashDisplay-Extralight.otf */,
+				1029D75F67BC4A7EBD59A42C /* ClashDisplay-Light.otf */,
+				5CBA101A72B74C41963DB8B3 /* ClashDisplay-Medium.otf */,
+				FBB1BFD5C192452F85AA5EE8 /* ClashDisplay-Regular.otf */,
+				06E1BFC6873647C7A9D6651A /* ClashDisplay-Semibold.otf */,
+				9CF6807FE14A41EAB09CEE3A /* GeneralSans-Bold.otf */,
+				DE6D76EF55D746E5A49E42FB /* GeneralSans-BoldItalic.otf */,
+				3A57517669024FE5B2FE392E /* GeneralSans-Extralight.otf */,
+				5A3184AE455945C692838AC4 /* GeneralSans-ExtralightItalic.otf */,
+				651CCEFC6D5D4C0EAFB34EA8 /* GeneralSans-Italic.otf */,
+				52A8ABB67756448E80EF495B /* GeneralSans-Light.otf */,
+				98F7DFBB69AC4D9DBC3C0098 /* GeneralSans-LightItalic.otf */,
+				3952D0D7422942F2AE5D5319 /* GeneralSans-Medium.otf */,
+				A89E7D10D7BC480A96A722BC /* GeneralSans-MediumItalic.otf */,
+				5214E241A7214E7BABB2E595 /* GeneralSans-Regular.otf */,
+				E59F237F17004B738C6272C9 /* GeneralSans-Semibold.otf */,
+				5AA78B5F2C8145338F51C0E2 /* GeneralSans-SemiboldItalic.otf */,
+				4D91D0C3116E42928FD305E2 /* Recia-Bold.otf */,
+				3204E25A9E8C4996858B7076 /* Recia-BoldItalic.otf */,
+				7E568500C84A4274BF738D19 /* Recia-Italic.otf */,
+				2425901FA5BC4B46897C1AEB /* Recia-Light.otf */,
+				5AE394D0E6F94B8AB45DA91D /* Recia-LightItalic.otf */,
+				FBE764FD762B47889BFE7351 /* Recia-Medium.otf */,
+				E24876EB7F864C088B7C39CD /* Recia-MediumItalic.otf */,
+				70918A91B4E94E1ABC712BC8 /* Recia-Regular.otf */,
+				AD8211586CBC4DA988975A40 /* Recia-Semibold.otf */,
+				F0AA15659D7F4608B34F312E /* Recia-SemiboldItalic.otf */,
+				918FBEB548124F35A91CB659 /* Inter-Black.ttf */,
+				8F4BE95F076D4802AC0C8506 /* Inter-Bold.ttf */,
+				324FA1D27016405D97C8D0C2 /* Inter-ExtraBold.ttf */,
+				F6BDD46BCC124CA293B50AE8 /* Inter-ExtraLight.ttf */,
+				495ECFE548F044D5B14637AC /* Inter-Light.ttf */,
+				1694E2D4F851427693DFB121 /* Inter-Medium.ttf */,
+				5AB891B091B249CCB51E1C9D /* Inter-Regular.ttf */,
+				D04F32B7AE244F4ABF2A9E98 /* Inter-SemiBold.ttf */,
+				73B27BA59B634BBC8864F07A /* Inter-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* SpaceX */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SpaceXTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6B49B0EAD436407C8105023B /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SpaceX.app */,
+				00E356EE1AD99517003FC87E /* SpaceXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988A776E2971B29600251713 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				988A776F2971B29600251713 /* Recia-BoldItalic.otf */,
+				988A77702971B29600251713 /* Inter-Medium.ttf */,
+				988A77712971B29600251713 /* Inter-Light.ttf */,
+				988A77722971B29600251713 /* ClashDisplay-Medium.otf */,
+				988A77732971B29600251713 /* ClashDisplay-Semibold.otf */,
+				988A77742971B29600251713 /* GeneralSans-Italic.otf */,
+				988A77752971B29600251713 /* Recia-Light.otf */,
+				988A77762971B29600251713 /* Inter-Thin.ttf */,
+				988A77772971B29600251713 /* Inter-Bold.ttf */,
+				988A77782971B29600251713 /* ClashDisplay-Light.otf */,
+				988A77792971B29600251713 /* Recia-Semibold.otf */,
+				988A777A2971B29600251713 /* GeneralSans-BoldItalic.otf */,
+				988A777B2971B29600251713 /* Recia-SemiboldItalic.otf */,
+				988A777C2971B29600251713 /* GeneralSans-Light.otf */,
+				988A777D2971B29600251713 /* Recia-Italic.otf */,
+				988A777E2971B29600251713 /* Inter-Regular.ttf */,
+				988A777F2971B29600251713 /* GeneralSans-MediumItalic.otf */,
+				988A77802971B29600251713 /* GeneralSans-Semibold.otf */,
+				988A77812971B29600251713 /* GeneralSans-Extralight.otf */,
+				988A77822971B29600251713 /* GeneralSans-LightItalic.otf */,
+				988A77832971B29600251713 /* GeneralSans-Medium.otf */,
+				988A77842971B29600251713 /* Recia-LightItalic.otf */,
+				988A77852971B29600251713 /* Recia-Regular.otf */,
+				988A77862971B29600251713 /* Recia-Bold.otf */,
+				988A77872971B29600251713 /* Inter-ExtraBold.ttf */,
+				988A77882971B29600251713 /* Inter-ExtraLight.ttf */,
+				988A77892971B29600251713 /* Recia-Medium.otf */,
+				988A778A2971B29600251713 /* ClashDisplay-Bold.otf */,
+				988A778B2971B29600251713 /* Inter-Black.ttf */,
+				988A778C2971B29600251713 /* GeneralSans-Regular.otf */,
+				988A778D2971B29600251713 /* Recia-MediumItalic.otf */,
+				988A778E2971B29600251713 /* GeneralSans-SemiboldItalic.otf */,
+				988A778F2971B29600251713 /* GeneralSans-Bold.otf */,
+				988A77902971B29600251713 /* Inter-SemiBold.ttf */,
+				988A77912971B29600251713 /* ClashDisplay-Regular.otf */,
+				988A77922971B29600251713 /* GeneralSans-ExtralightItalic.otf */,
+				988A77932971B29600251713 /* ClashDisplay-Extralight.otf */,
+			);
+			name = Fonts;
+			path = ../SRC/Assets/Fonts;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-SpaceX.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-SpaceX.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-SpaceX-SpaceXTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-SpaceX-SpaceXTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* SpaceXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SpaceXTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = SpaceXTests;
+			productName = SpaceXTests;
+			productReference = 00E356EE1AD99517003FC87E /* SpaceXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* SpaceX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SpaceX" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceX;
+			productName = SpaceX;
+			productReference = 13B07F961A680F5B00A75B9A /* SpaceX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SpaceX" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SpaceX */,
+				00E356ED1AD99517003FC87E /* SpaceXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988A77992971B29600251713 /* GeneralSans-Italic.otf in Resources */,
+				988A77A02971B29600251713 /* Recia-SemiboldItalic.otf in Resources */,
+				988A77952971B29600251713 /* Inter-Medium.ttf in Resources */,
+				988A77B02971B29600251713 /* Inter-Black.ttf in Resources */,
+				988A77AC2971B29600251713 /* Inter-ExtraBold.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				988A77B62971B29600251713 /* ClashDisplay-Regular.otf in Resources */,
+				988A77972971B29600251713 /* ClashDisplay-Medium.otf in Resources */,
+				03F22C195D2744E0B1472C97 /* ClashDisplay-Bold.otf in Resources */,
+				988A77AA2971B29600251713 /* Recia-Regular.otf in Resources */,
+				988A77942971B29600251713 /* Recia-BoldItalic.otf in Resources */,
+				988A77A72971B29600251713 /* GeneralSans-LightItalic.otf in Resources */,
+				9696AF92B08D45F79E8687EE /* ClashDisplay-Extralight.otf in Resources */,
+				BC2B08B5F17E4C81A365BC13 /* ClashDisplay-Light.otf in Resources */,
+				35CDA5E188B541B0B4DD3707 /* ClashDisplay-Medium.otf in Resources */,
+				988A77982971B29600251713 /* ClashDisplay-Semibold.otf in Resources */,
+				988A77A22971B29600251713 /* Recia-Italic.otf in Resources */,
+				18BC94689D7945A082A4077C /* ClashDisplay-Regular.otf in Resources */,
+				D43D799EB7BA4089A4D970B9 /* ClashDisplay-Semibold.otf in Resources */,
+				988A77B12971B29600251713 /* GeneralSans-Regular.otf in Resources */,
+				4A17746CEAB746CDB113BE30 /* GeneralSans-Bold.otf in Resources */,
+				988A77A12971B29600251713 /* GeneralSans-Light.otf in Resources */,
+				988A77A82971B29600251713 /* GeneralSans-Medium.otf in Resources */,
+				988A77AF2971B29600251713 /* ClashDisplay-Bold.otf in Resources */,
+				F5E0B2AE88CB436EB1C62DAF /* GeneralSans-BoldItalic.otf in Resources */,
+				C7EE84FBB1594EBEBF3E3267 /* GeneralSans-Extralight.otf in Resources */,
+				988A779D2971B29600251713 /* ClashDisplay-Light.otf in Resources */,
+				9F09B0D4E68C4F37975DA815 /* GeneralSans-ExtralightItalic.otf in Resources */,
+				792BD98D66A74B6193B2DB21 /* GeneralSans-Italic.otf in Resources */,
+				65211C780FC64B02A4C0DA1C /* GeneralSans-Light.otf in Resources */,
+				82924CB8DAC447DAA045F0AE /* GeneralSans-LightItalic.otf in Resources */,
+				6398CF3165444380BEC72DD5 /* GeneralSans-Medium.otf in Resources */,
+				988A779A2971B29600251713 /* Recia-Light.otf in Resources */,
+				988A77AB2971B29600251713 /* Recia-Bold.otf in Resources */,
+				D940A6204DD94F219D81F6AE /* GeneralSans-MediumItalic.otf in Resources */,
+				BCB3BEA371104B72907DBD39 /* GeneralSans-Regular.otf in Resources */,
+				89150104C6E24EFAAAB783EF /* GeneralSans-Semibold.otf in Resources */,
+				FA565D263B974A7FAD6D1BE1 /* GeneralSans-SemiboldItalic.otf in Resources */,
+				5398E1423E7E427DB59CE4AB /* Recia-Bold.otf in Resources */,
+				988A77A92971B29600251713 /* Recia-LightItalic.otf in Resources */,
+				988A77B32971B29600251713 /* GeneralSans-SemiboldItalic.otf in Resources */,
+				988A77B72971B29600251713 /* GeneralSans-ExtralightItalic.otf in Resources */,
+				988A779B2971B29600251713 /* Inter-Thin.ttf in Resources */,
+				BDD42A9344224D41BE08A915 /* Recia-BoldItalic.otf in Resources */,
+				B7C54332F3504BC1B4E0D1F7 /* Recia-Italic.otf in Resources */,
+				988A77B42971B29600251713 /* GeneralSans-Bold.otf in Resources */,
+				940CD34EAA624DCC97D23741 /* Recia-Light.otf in Resources */,
+				1EE07398C38343D3A3DE7CDB /* Recia-LightItalic.otf in Resources */,
+				1C41AAC3623F4798B8BF80DF /* Recia-Medium.otf in Resources */,
+				3BFCB374A32F4ACC8ED51551 /* Recia-MediumItalic.otf in Resources */,
+				DDF97D06EBA44E6BBD9D2E88 /* Recia-Regular.otf in Resources */,
+				B956C0FF9DE54AEAA12A1CF1 /* Recia-Semibold.otf in Resources */,
+				5508798359954763BB4AE080 /* Recia-SemiboldItalic.otf in Resources */,
+				988A77A32971B29600251713 /* Inter-Regular.ttf in Resources */,
+				327DADCFDF81411588A94E91 /* Inter-Black.ttf in Resources */,
+				B579E4CF64A245A8A8EF5FCD /* Inter-Bold.ttf in Resources */,
+				988A77B52971B29600251713 /* Inter-SemiBold.ttf in Resources */,
+				988A77962971B29600251713 /* Inter-Light.ttf in Resources */,
+				988A779F2971B29600251713 /* GeneralSans-BoldItalic.otf in Resources */,
+				988A779E2971B29600251713 /* Recia-Semibold.otf in Resources */,
+				988A77A52971B29600251713 /* GeneralSans-Semibold.otf in Resources */,
+				F9F9CC580E1A4363AE3FAE05 /* Inter-ExtraBold.ttf in Resources */,
+				DE6DB212AB8B4BD8AA2376B2 /* Inter-ExtraLight.ttf in Resources */,
+				988A77AD2971B29600251713 /* Inter-ExtraLight.ttf in Resources */,
+				988A779C2971B29600251713 /* Inter-Bold.ttf in Resources */,
+				988A77A62971B29600251713 /* GeneralSans-Extralight.otf in Resources */,
+				988A77AE2971B29600251713 /* Recia-Medium.otf in Resources */,
+				988A77B82971B29600251713 /* ClashDisplay-Extralight.otf in Resources */,
+				988A77A42971B29600251713 /* GeneralSans-MediumItalic.otf in Resources */,
+				3FD5B2A058924073B2047DAF /* Inter-Light.ttf in Resources */,
+				988A77B22971B29600251713 /* Recia-MediumItalic.otf in Resources */,
+				777518C0D49045B892D82928 /* Inter-Medium.ttf in Resources */,
+				C4A1F2D62F5640E2B75045C3 /* Inter-Regular.ttf in Resources */,
+				234B3CEBC2174D20AEDCAF0A /* Inter-SemiBold.ttf in Resources */,
+				301B0DC3BBAA4D41A6633275 /* Inter-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-SpaceXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX-SpaceXTests/Pods-SpaceX-SpaceXTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* SpaceXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* SpaceX */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SpaceX-SpaceXTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX.app/SpaceX";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SpaceX-SpaceXTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = SpaceXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX.app/SpaceX";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SpaceX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SpaceX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SpaceX;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SpaceX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SpaceX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SpaceX;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SpaceXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
